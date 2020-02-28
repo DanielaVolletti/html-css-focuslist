@@ -5,6 +5,9 @@
   box-sizing: border-box;
 }
 
+.centratura {
+  text-align: center;
+}
 /* regole debug */
 /*
 section {
@@ -63,5 +66,40 @@ header {
 
 /* prima sezione */
 #prima-sezione {
+  padding-top: 100px;
   background-color: #F6F7F8;
+}
+
+#prima-sezione h2 {
+  font-size: 40px;
+  font-weight: lighter;
+  padding-bottom: 40px;
+}
+
+#prima-sezione p {
+  color: #9ba6b7;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+#prima-sezione img {
+  width: 400px;
+}
+
+#prima-sezione .col-lg-4:first-child {
+  padding-top: 150px;
+  padding-right: 15px;
+  text-align: right;
+}
+
+#prima-sezione .col-lg-4:nth-child(3) {
+  padding-top: 200px;
+  padding-left: 15px;
+  text-align: left;
+}
+
+#prima-sezione h3 {
+  padding-bottom: 15px;
+  color: #274daf;
+  font-size: 22px;
 }
