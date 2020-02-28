@@ -6,21 +6,62 @@
 }
 
 /* regole debug */
-header {
-  background-color: yellow;
-  height: 200px;
-}
+/*
 section {
   border: solid 1px black;
   background-color: brown;
   min-height: 200px;
-}
+} */
 footer {
   background-color: blue;
   min-height: 100px;
 }
 
-[class*="col-"] {
-  border: solid 1px black;
-  height: 200px;
+
+/* sezione inizio pagina */
+header {
+  background-color: #194681;
+  padding: 50px 200px 0 150px;
+}
+
+#colonna-logo {
+  padding-top: 100px;
+}
+
+#colonna-logo h2 {
+  font-size: 40px;
+  font-weight: lighter;
+  padding-top: 20px;
+  color: white;
+}
+
+#colonna-logo p {
+  font-size: 25px;
+  padding: 20px 0;
+  color: #7393c1;
+  line-height: 1.5;
+}
+
+#link-mac {
+  padding-top: 10px;
+}
+
+#link-mac a {
+  color: #7393c1;
+  text-decoration: none;
+  padding-left: 5px;
+}
+
+#link-mac i {
+  font-size: 50px;
+}
+
+#link-mac span {
+  vertical-align: super;
+  padding-left: 5px;
+}
+
+/* prima sezione */
+#prima-sezione {
+  background-color: #F6F7F8;
 }
