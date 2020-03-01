@@ -253,7 +253,10 @@ footer ul li a {
 
   #prima-sezione p, #seconda-sezione p, #terza-sezione p {
     font-size: 14px;
-    padding-bottom: 0px;
+  }
+
+  #prima-sezione h2, #seconda-sezione h2, #terza-sezione h2 {
+    font-size: 27px;
   }
 
   /* prima sezione */
@@ -265,6 +268,10 @@ footer ul li a {
   #prima-sezione h2 {
     font-size: 27px;
     padding-bottom: 20px;
+  }
+
+  #prima-sezione p {
+    padding-bottom: 0;
   }
 
   #prima-sezione .col-lg-4:first-child {
@@ -293,6 +300,67 @@ footer ul li a {
     width: 300px;
   }
 
+  /* seconda sezione */
+  #seconda-sezione h2 {
+    padding-top: 20px;
+  }
+
+  #seconda-sezione .col-lg-6 p {
+    padding: 20px 0 30px 0;
+  }
+
+  #seconda-sezione img {
+    width: 25%;
+  }
+
+  #seconda-sezione h3 {
+    padding-top: 15px;
+    font-size: 20px;
+  }
+
+  #colonne {
+    padding-bottom: 0;
+  }
+
+  #colonne p {
+    padding-bottom: 10px;
+    padding-top: 5px;
+  }
+
+  /* terza sezione */
+
+  #terza-sezione img {
+    width: 25%;
+    padding-bottom: 10px;
+  }
+
+  #terza-sezione h2 {
+    padding: 15px 0;
+  }
+
+  #terza-sezione p {
+    padding-bottom: 15px;
+  }
+
+  #immagini-calendario {
+    padding-bottom: 0;
+  }
+
+  /* footer */
+
+  footer h5 {
+    padding-bottom: 10px;
+    font-size: 12px;
+  }
+
+  footer h5:last-child {
+    padding-top: 20px;
+  }
+
+  footer ul li a {
+    font-size: 10px;
+  }
+  
 }
 
 /* versione tablet */
@@ -379,6 +447,11 @@ footer ul li a {
     padding-left: 0px;
   }
 
+  /* seconda sezione */
+
+  /* terza sezione */
+
+  /* footer */
 
 
 }
