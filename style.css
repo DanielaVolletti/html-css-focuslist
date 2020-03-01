@@ -8,13 +8,6 @@
 .centratura {
   text-align: center;
 }
-/* regole debug */
-
-footer {
-  background-color: blue;
-  min-height: 100px;
-}
-
 
 /* sezione inizio pagina */
 header {
@@ -73,14 +66,18 @@ header {
   color: #9ba6b7;
 }
 
+#prima-sezione h2, #seconda-sezione h2, #terza-sezione h2 {
+  font-size: 40px;
+}
+
 /* prima sezione */
 #prima-sezione {
   padding-top: 100px;
   background-color: #F6F7F8;
+  padding-bottom: 50px;
 }
 
 #prima-sezione h2 {
-  font-size: 40px;
   font-weight: lighter;
   padding-bottom: 40px;
 }
@@ -95,13 +92,13 @@ header {
 
 #prima-sezione .col-lg-4:first-child {
   padding-top: 140px;
-  padding-right: 15px;
+  padding-right: 20px;
   text-align: right;
 }
 
 #prima-sezione .col-lg-4:nth-child(3) {
   padding-top: 190px;
-  padding-left: 15px;
+  padding-left: 18px;
   text-align: left;
 }
 
@@ -116,7 +113,89 @@ header {
   background-color: #2A4B77;
 }
 
+#seconda-sezione img {
+  border-radius: 5px;
+}
 
+#seconda-sezione h2 {
+  padding-top: 50px;
+  font-weight: lighter;
+}
+
+#seconda-sezione h2, #seconda-sezione h3 {
+  color: white;
+}
+
+#seconda-sezione p {
+  color: #7393c1;
+}
+
+#seconda-sezione .col-lg-6 p {
+  padding: 30px 0 50px 0;
+}
+
+#seconda-sezione h3 {
+  padding-top: 35px;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+#colonne p {
+  padding: 20px;
+  font-size: 18px;
+}
+
+#colonne {
+  padding-bottom: 40px;
+}
+
+/* terza sezione */
+
+#terza-sezione {
+  background-color: #F6F7F8;
+}
+
+#terza-sezione h2 {
+  font-weight: lighter;
+  padding: 40px 0;
+}
+
+#terza-sezione p {
+  padding-bottom: 30px;
+}
+
+#terza-sezione img {
+  border-radius: 5px;
+}
+
+#immagini-calendario {
+  padding-bottom: 50px;
+}
+
+/* footer */
+
+footer {
+  background-color: #113462;
+  padding: 50px 130px;
+}
+
+footer h5 {
+  color: #7393c1;
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+footer ul li {
+  list-style-type: none;
+  padding-bottom: 10px;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
 
 
 /* versione smarphone */
